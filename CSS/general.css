@@ -1,405 +1,256 @@
+/* styles.css */
+
+/* Estilos generales */
 body {
-    background-color: bisque;
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 60px;
-    font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
-  }
-  
-  #pokemon-container {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
-  
-  #pokemon-container img {
-    margin-right: 50px;
-  }
-  
-  .pixelify-sans p {
-    font-size: 25px;
-  }
-  
-  .type-button {
-    display: inline-block;
-    color: orange;
-    cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color: orange;
-    color: white;
+  background-color: bisque;
 }
-  
-  .type-text {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .type-link {
-    background-color: orange;
-    padding: 5px 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-  }
-    
-  .pokemon-type-psychic {
-    color: pink;
-  }
-  
-  .pokemon-type-dragon {
-    color: #0F52BA;
-  }
-  
-  .pokemon-type-flying {
-    color: skyblue;
-  }
-  
-  .pokemon-type-ghost {
-    color: purple;
-  }
-  
-  .pokemon-type-poison {
-    color: darkmagenta;
-  }
-  
-  .dragon {
-    background-color: #0F52BA;
-  }
-  
-  .flying {
-    background-color: skyblue;
-  }
-  
-  .ghost {
-    background-color: purple;
-  }
-  
-  .poison {
-    background-color: darkmagenta;
-  }
-  
-  .pokemon-type-fire {
-    color: #F05030;
-  }
-  
-  .pokemon-type-water {
-    color: #6495ED;
-  }
-  
-  .pokemon-type-grass {
-    color: #7FFF00;
-  }
-  
-  .pokemon-type-electric {
-    color: #FFFF00;
-  }
-  
-  .pokemon-type-ice {
-    color: #ADD8E6;
-  }
-  
-  .pokemon-type-fighting {
-    color: #C0C0C0;
-  }
-  
-  .pokemon-type-poison {
-    color: #8B008B;
-  }
-  
-  .pokemon-type-ground {
-    color: #8B4513;
-  }
-  
-  .pokemon-type-flying {
-    color: skyblue;
-  }
-  
-  .pokemon-type-psychic {
-    color: pink;
-  }
-  
-  .pokemon-type-bug {
-    color: #00FF00;
-  }
-  
-  .pokemon-type-rock {
-    color: #8B4513;
-  }
-  
-  .pokemon-type-ghost {
-    color: purple;
-  }
-  
-  .pokemon-type-dark {
-    color: #A9A9A9;
-  }
-  
-  .pokemon-type-steel {
-    color: #C0C0C0;
-  }
-  
-  .pokemon-type-fairy {
-    color: #FFB6C1;
-  }
-  
-  .pokemon-description-text {
-    font-size: 20px;
-  }
-  
-  .pixelify-sans h2 {
-    font-size: 40px;
-  }
-  
-  .pixelify-sans button {
-    font-size: 20px;
-    padding: 10px 20px;
-    background-color: #FF69B4;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 350px;
-    position: relative;
-    top: 3px;
-    left: -25px;
-  }
-  
-  .pixelify-sans button:hover {
-    background-color: #FF4081;
-  }
-  
-  .red-button {
-    background-color: red;
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
 }
-  .purple-button {
-    background-color: purple;
-  }
-  
-  .green-button {
-    background-color: green;
-  }
-  
-  #pokemon-form {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-  }
-  
-  .pixelify-sans form {
-    margin-top: 20px;
-  }
-  
-  .pixelify-sans #pokemon-form {
-    margin-top: 20px;
-  }
-  
+
+#pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#pokemon-container img {
+  margin-right: 50px;
+}
+
+.pixelify-sans p {
+  font-size: 25px;
+}
+
+.type-button {
+  display: inline-block;
+  color: orange;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+}
+
+.type-text {
+  margin: 0;
+  padding: 0;
+}
+
+.type-link {
+  background-color: orange;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#pokemon-description {
+  text-align: center;
+}
+
+.pixelify-sans #pokemon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pixelify-sans #pokemon-description {
+  margin-left: 50px;
+}
+
+.pixelify-sans #pokemon-image {
+  margin-right: 50px;
+}
+
+.pixelify-sans #pokemon-name {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.pixelify-sans #pokemon-type {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pixelify-sans #pokemon-description h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pixelify-sans #pokemon-description p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pixelify-sans #pokemon-back-button {
+  margin-top: 20px;
+}
+
+.pixelify-sans #pokemon-back-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.pixelify-sans #pokemon-back-button a:hover {
+  text-decoration: underline;
+}
+
+.pixelify-sans .pokemon-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pixelify-sans .pokemon-form button {
+  margin: 0 10px;
+}
+
+.pixelify-sans .return-button {
+  margin-top: 20px;
+}
+
+.pixelify-sans button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #FF69B4;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pixelify-sans button:hover {
+  background-color: #FF4081;
+}
+
+.red-button {
+  background-color: red;
+}
+
+.purple-button {
+  background-color: purple;
+}
+
+.green-button {
+  background-color: green;
+}
+
+#pokemon-form {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.pixelify-sans form {
+  margin-top: 20px;
+}
+
+.pixelify-sans #pokemon-form {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
   .pixelify-sans #pokemon-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .pixelify-sans #pokemon-description {
-    margin-left: 50px;
-  }
-  
-  .pixelify-sans #pokemon-image {
-    margin-right: 50px;
-  }
-  
-  .pixelify-sans #pokemon-name {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-  
-  .pixelify-sans #pokemon-type {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .pixelify-sans #pokemon-description h2 {
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .pixelify-sans #pokemon-description p {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .pixelify-sans #pokemon-back-button {
-    margin-top: 50px;
-  }
-  
-  .pixelify-sans #pokemon-back-button a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .pixelify-sans #pokemon-back-button a:hover {
-    text-decoration: underline;
-  }
-  
-  .pixelify-sans #pokemon-back-button button {
-    font-size: 20px;
-    padding: 10px 20px;
-    background-color: #FF69B4;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 0;
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  
-  .pixelify-sans #pokemon-back-button button:hover {
-    background-color: #FF4081;
-  }
-  
-  .pixelify-sans #pokemon-back-button button:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  
-  @media (max-width: 768px) {
-    .pixelify-sans #pokemon-container {
       flex-direction: column;
       align-items: center;
-    }
-  
-    .pixelify-sans #pokemon-description {
+  }
+
+  .pixelify-sans #pokemon-description {
       margin-left: 0;
-    }
-  
-    .pixelify-sans #pokemon-image {
+  }
+
+  .pixelify-sans #pokemon-image {
       margin-right: 0;
-    }
-  
-    .pixelify-sans #pokemon-name {
+  }
+
+  .pixelify-sans #pokemon-name {
       font-size: 30px;
       margin-bottom: 10px;
-    }
-  
-    .pixelify-sans #pokemon-type {
+  }
+
+  .pixelify-sans #pokemon-type {
       font-size: 20px;
       margin-bottom: 10px;
-    }
-  
-    .pixelify-sans #pokemon-description h2 {
+  }
+
+  .pixelify-sans #pokemon-description h2 {
       font-size: 20px;
       margin-top: 10px;
       margin-bottom: 5px;
-    }
-  
-    .pixelify-sans #pokemon-description p {
+  }
+
+  .pixelify-sans #pokemon-description p {
       font-size: 15px;
       margin-bottom: 5px;
-    }
-  
-    .pixelify-sans #pokemon-back-button {
-      margin-top:20px;
-    }
   }
-  
-  @media (max-width: 480px) {
-    .pixelify-sans #pokemon-name {
+
+  .pixelify-sans #pokemon-back-button {
+      margin-top:20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pixelify-sans #pokemon-name {
       font-size: 20px;
       margin-bottom: 5px;
-    }
-  
-    .pixelify-sans #pokemon-type {
+  }
+
+  .pixelify-sans #pokemon-type {
       font-size: 15px;
       margin-bottom: 5px;
-    }
-  
-    .pixelify-sans #pokemon-description h2 {
+  }
+
+  .pixelify-sans #pokemon-description h2 {
       font-size: 15px;
       margin-top: 5px;
       margin-bottom: 2px;
-    }
-  
-    .pixelify-sans #pokemon-description p {
+  }
+
+  .pixelify-sans #pokemon-description p {
       font-size: 12px;
       margin-bottom: 2px;
-    }
-  
-    .pixelify-sans #pokemon-back-button {
+  }
+
+  .pixelify-sans #pokemon-back-button {
       margin-top: 10px;
-    }
   }
-  .pokemon-type-fire {
-    color: #F05030;
-  }
-  
-  .pokemon-type-water {
-    color: #6495ED;
-  }
-  
-  .pokemon-type-grass {
-    color: #7FFF00;
-  }
-  
-  .pokemon-type-electric {
-    color: #FFFF00;
-  }
-  
-  .pokemon-type-ice {
-    color: #ADD8E6;
-  }
-  
-  .pokemon-type-fighting {
-    color: #C0C0C0;
-  }
-  
-  .pokemon-type-poison {
-    color: #8B008B;
-  }
-  
-  .pokemon-type-ground {
-    color: #8B4513;
-  }
-  
-  .pokemon-type-bug {
-    color: #00FF00;
-  }
-  
-  .pokemon-type-rock {
-    color: #8B4513;
-  }
-  
-  .pokemon-type-dark {
-    color: #A9A9A9;
-  }
-  
-  .pokemon-type-steel {
-    color: #C0C0C0;
-  }
-  
-  .pokemon-type-fairy {
-    color: #FFB6C1;
-  }
-  .psychic {
-    background-color: #F95587;
-  }
-  .poison {
-    background-color: #A33EA1;
-  }
-  .ghost {
-    background-color: #735797;
-  }
-  .fire {
-    background-color: orange;
-  }
-  .pixelify-sans {
-    font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:  normal;
-    font-style: normal;
-  }
+}
+
+/* Estilos para los enlaces */
+.type-text {
+  text-decoration: none; /* Quita el subrayado */
+  color: white; /* Cambia el color del texto */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el enlace */
+}
+
+/* Estilos para los enlaces al pasar el ratón */
+.type-text:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
+
+.pokemon-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.pokemon-images img {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  cursor: pointer;
+}
